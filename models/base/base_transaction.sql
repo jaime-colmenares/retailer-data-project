@@ -27,4 +27,4 @@ SELECT
   , sales
   , discount
   , profit
-FROM {{ source('google_drive', 'transactions') }} retailer-data-project.google_drive.transactions
+FROM {{ source('google_drive', 'transactions') }}
