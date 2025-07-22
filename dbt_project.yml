@@ -21,3 +21,9 @@ models:
     base:
       +materialized: view
       +schema: base
+    intermediate:
+      +materialized: view
+      +schema: intermediate
+    analytics:
+      +materialized: table
+      +schema: analytics
