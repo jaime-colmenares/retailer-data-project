@@ -1,0 +1,22 @@
+select
+    _base_updated_ts,
+    current_timestamp as _int_updated_ts,
+    _source_row_id,
+    order_id,
+    order_date,
+    order_priority,
+    ship_date,
+    ship_mode,
+    customer_id,
+    city,
+    state,
+    postal_code,
+    country,
+    market,
+    region,
+    product_id,
+    quantity,
+    sales,
+    discount,
+    profit
+from {{ ref("base_transaction") }}
