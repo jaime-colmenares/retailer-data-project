@@ -1,0 +1,23 @@
+select
+    order_id,
+    product_id,
+    order_date,
+    order_priority,
+    ship_date,
+    ship_mode,
+    customer_id,
+    city,
+    state,
+    postal_code,
+    country,
+    market,
+    region,
+    quantity,
+    sales,
+    discount,
+    profit,
+    _base_updated_ts,
+    _int_updated_ts,
+    current_timestamp as _analytics_updated_ts,
+    _source_row_id
+from {{ ref("int_order_detail") }}
