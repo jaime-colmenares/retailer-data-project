@@ -39,5 +39,11 @@ models:
   retailer_data_project:
     # Applies to all files under models/example/
     base:
-      materialized: view
+      materialized: table
       +schema: base
+    intermediate:
+      materialized: table
+      +schema: intermediate
+    analytics:
+      materialized: table
+      +schema: analytics
