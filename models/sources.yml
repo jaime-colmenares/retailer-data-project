@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: google_drive
+    project: retailer-data-project
+    dataset: google_drive
+    tables:
+      - name: transactions
