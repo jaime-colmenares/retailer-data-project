@@ -1,4 +1,5 @@
 select
+    CURRENT_TIMESTAMP as _int_updated_ts,
     order_id,
     sum(sales) as sum_sales, 
     sum(profit) as sum_profit
