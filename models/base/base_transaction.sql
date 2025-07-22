@@ -1,7 +1,7 @@
 SELECT
   _file
   , _line
-  , _modified AS modified_ts
+  , _modified AS _modified_ts
   , _fivetran_synced AS _fivetran_synced_ts
   , CURRENT_TIMESTAMP AS _base_updated_ts
   , row_id AS _source_row_id
