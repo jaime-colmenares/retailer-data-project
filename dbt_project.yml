@@ -20,10 +20,10 @@ models:
   retailer_data_project:
     base:
       +materialized: view
-      +schema: "{{ target.name == 'prod' and 'base' or 'dbt_jcolmenares_base' }}"
+      +schema: "{{ target.name == 'prod' and 'base' or 'base' }}"
     intermediate:
       +materialized: view
-      +schema: "{{ target.name == 'prod' and 'intermediate' or 'dbt_jcolmenares_intermediate' }}"
+      +schema: "{{ target.name == 'prod' and 'intermediate' or 'intermediate' }}"
     analytics:
       +materialized: table
-      +schema: "{{ target.name == 'prod' and 'analytics' or 'dbt_jcolmenares_analytics' }}"
+      +schema: "{{ target.name == 'prod' and 'analytics' or 'analytics' }}"
