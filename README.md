@@ -23,12 +23,12 @@ This included:
 ## Tech Stack
 
 - **Google Drive** - Acts as external data provider (simulating real-world sources like Google Ads, Stripe, LogRocket, etc.)
-- **Fivetran** - Automated data ingestion
-- **Google BigQuery** - Cloud data warehouse for storage and analysis
-- **dbt Cloud** - Data transformation and modeling layer
-- **GitHub** - Version control for all code and configurations
-- **Preset** - Interactive data visualization and dashboards
-- **Google Sheets** - Automated reporting integration with BigQuery
+- **Fivetran** - Manages process to ingest external data on periodic basis (in this case, daily at 1 am)
+- **Google BigQuery** - Stores data and provides tools to run analyses on data.  Provides access to data via SQL editor and notebook functionality
+- **dbt Cloud** - Manages data transformation inside BigQuery and runs periodic job to update all base, intermediate, and analytics tables (in this case, daily at 3 am)
+- **GitHub** - Manages version control for all code and configurations
+- **Preset** - Provides access to data via a dashboard
+- **Google Sheets** - Provides access to data via a spreadsheet
 
 ## Data Source
 
