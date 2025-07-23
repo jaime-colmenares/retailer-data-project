@@ -3,7 +3,7 @@ with
         select
             *,
             dense_rank() over (
-                partition by product_id order by _source_row_id
+                partition by product_id order by order_date, order_id, product_name
             ) as rank_num
         from {{ ref("base_transaction") }}
     )
