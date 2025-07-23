@@ -14,7 +14,7 @@ with
     first_order as (
         select
             _base_updated_ts,
-            current_timestamp as int_updated_ts,
+            current_timestamp as _int_updated_ts,
             customer_id,
             customer_name,
             segment,
@@ -41,7 +41,7 @@ with
 
 select
     fo._base_updated_ts,
-    fo.int_updated_ts,
+    fo._int_updated_ts,
     fo.customer_id,
     fo.customer_name,
     fo.segment,
