@@ -17,6 +17,7 @@ This included:
 - **[Live Dashboard](https://340c79e3.us1a.app.preset.io/superset/dashboard/5/?native_filters_key=RIzc1Pxq9dEM3EbNSvhePyYsFqvPsoSukqXSzdUNQ0-0dxFFQk0NZpn4Hf0VNVSv)** - Dashboard meant to illustrate my capabilities (focus on illustrating insight development skills in Google Slides deck)
 - **[Google Sheets Report](https://docs.google.com/spreadsheets/d/1FrdsaDrdkvVm1_TzR2dSxAbkEin57rB8O5FerKOrLGg/edit?gid=472178624#gid=472178624)** - Spreadsheet connected directly to BigQuery meant to illustrate capability
 - **[Code Repository](https://github.com/jaime-colmenares/retailer-data-project/blob/main/README.md)** - Code for all data transfomations and data models
+- **[Analytics Tables in BigQuery](https://console.cloud.google.com/bigquery?ws=!1m4!1m3!3m2!1sretailer-data-project!2sproduction_analytics)** - Tables ready for analytics use: dim_client, dim_product, fact_order_detail, fact_order_summary, agg_monthly_finance_report, agg_monthly_client_report.
 - **[Project Raw Data](https://drive.google.com/drive/u/0/folders/1a71jlXnOEhfqnRUdxJ7bEw2jXpLYf7Iu)** - Storage of raw data files by period, meant to illustrate how periodic data ingestion process works
 
 ## Tech Stack
