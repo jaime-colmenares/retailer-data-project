@@ -34,7 +34,7 @@ The dataset contains order level transaction data, which includes sales amounts,
 - **[Presentation](link-to-slides)** - Insights on customer acquisition and retention
 - **[Live Dashboard](https://340c79e3.us1a.app.preset.io/superset/dashboard/5/?native_filters_key=RIzc1Pxq9dEM3EbNSvhePyYsFqvPsoSukqXSzdUNQ0-0dxFFQk0NZpn4Hf0VNVSv)** - Dashboard meant to illustrate my capabilities (focus on illustrating insight development skills in Google Slides deck)
 - **[Google Sheets Report](link-to-sheets)** - Spreadsheet connected directly to BigQuery meant to illustrate capability
-- **[Code Repository](https://drive.google.com/drive/u/0/folders/1a71jlXnOEhfqnRUdxJ7bEw2jXpLYf7Iu)** - Code for all data transfomations and data models
+- **[Code Repository](https://github.com/jaime-colmenares/retailer-data-project/blob/main/README.md)** - Code for all data transfomations and data models
 - **[Project Raw Data](https://drive.google.com/drive/u/0/folders/1a71jlXnOEhfqnRUdxJ7bEw2jXpLYf7Iu)** - Storage of raw data files by period, meant to illustrate how periodic data ingestion process works
 
 ## Development Timeline
