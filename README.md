@@ -7,9 +7,9 @@ This project is meant to illustrate my skills in developing an end-to-end data a
 **Key Features:**
 - Automated data ingestion from Google Drive (meant to simulate 3rd party service) to BigQuery
 - Automated transformation of data from raw format to analytics grade data tables, using dbt Cloud
-- Version-controlled data models and transformations
-- Access to data via automated dashboard and interactive spreadsheet
-- Ad-hoc descriptive analysis on company performance
+- Version-controlled data models and transformations, using Github
+- Access to data via automated dashboard and interactive spreadsheet, using Preset and Google Sheets
+- Ad-hoc descriptive analysis on company performance, using BigQuery's SQL editor and Google Slides
   
 ## Tech Stack
 
