@@ -13,7 +13,7 @@ This included:
 
 ## Key Deliverables
 
-- **[Presentation](link-to-slides)** - Insights on customer acquisition and retention
+- **[Presentation](https://docs.google.com/presentation/d/16IMV9e-u14aAXUbimhqQgLfxw7fvGRAqyqnu8W9yry8/edit?usp=sharing)** - Insights on customer acquisition and retention
 - **[Live Dashboard](https://340c79e3.us1a.app.preset.io/superset/dashboard/5/?native_filters_key=RIzc1Pxq9dEM3EbNSvhePyYsFqvPsoSukqXSzdUNQ0-0dxFFQk0NZpn4Hf0VNVSv)** - Dashboard meant to illustrate dashboarding capabilities
 - **[Google Sheets Report](https://docs.google.com/spreadsheets/d/1FrdsaDrdkvVm1_TzR2dSxAbkEin57rB8O5FerKOrLGg/edit?gid=472178624#gid=472178624)** - Spreadsheet connected directly to BigQuery meant to illustrate capability
 - **[Code Repository](https://github.com/jaime-colmenares/retailer-data-project/blob/main/README.md)** - Code for all data transfomations and data models
