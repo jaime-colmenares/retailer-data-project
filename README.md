@@ -51,15 +51,14 @@ All transformations are version-controlled, tested, and documented using dbt bes
 
 ## Development Timeline
 
-**Total Project Time: ~24 hours**
+**Total Project Time: ~16 hours**
 
 - Dataset research (~2 hours)
-- Infrastructure setup and tool configuration (~8 hours)*
 - Data modeling and transformation development (~8 hours)
 - Dashboard and visualization creation (~3 hours)
 - Analysis and insight generation (~3 hours)
 
-*One-time infrastructure investment - subsequent projects would not require additional time spent on this 
+*One-time investment (~8 hours) in setting up and integrating tools (BigQuery, Fivetran, Google Drive, dbt Cloud, Github, Preset, Google Sheets) - subsequent projects would not require additional time spent on this 
 
 ---
 
